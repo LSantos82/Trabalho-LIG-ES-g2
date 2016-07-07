@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="Author" content="pt.ulusofona.es.g3">
+<title>Utilizador Mostra</title>
+</head>
+<body>
+	<h2>Dados do Utilizador:</h2>
+	<p>${myMensagem1}</p>
+	<p>${myMensagem2}</p>
+	<p>${myMensagem3}</p>
+
+	<input type="button" value="Menu" name="Menu"
+		onclick="openPage('Menu')" />
+
+	<script type="text/javascript">
+		function openPage(pageURL) {
+			window.location.href = pageURL;
+		}
+	</script>
+</body>
+</html>
